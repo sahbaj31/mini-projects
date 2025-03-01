@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background: #000;
+}
+h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 100px;
+  height: 150px;
+}
+
+.rows{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rows button{
+  width: 30px;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+  border: none;
+  background:#0c1f1b;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#button-plus{
+  width: 50px;
+  background: #324b47;
+}
+.container input{
+  height:18px;
+  width: 100%;
+  border: none;
+  border-radius: 13px;
+  padding: 4px;
+  margin-bottom: 3px;
+  font-family: sans-serif;
+  background:#0c302c;
+}
+#operator{
+  background:#2a4a61;
+}
