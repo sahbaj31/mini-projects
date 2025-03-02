@@ -41,9 +41,16 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
 
 }
+.rows button:hover{
+  cursor: pointer;
+  background-color: #13322b;
+}
 #button-plus{
   width: 50px;
   background: #324b47;
+}
+#button-plus:hover{
+  background-color: #477069;
 }
 .container input{
   height:18px;
@@ -54,7 +61,12 @@ h1{
   margin-bottom: 3px;
   font-family: sans-serif;
   background:#0c302c;
+  color: white;
+  text-align: end;
 }
 #operator{
   background:#2a4a61;
+}
+#operator:hover{
+  background-color: #325a76;
 }
